@@ -1,0 +1,49 @@
+; Hello World with Manipulating Register Values
+ ; instead of just loading each character's hex
+ ; into a.
+ parse a, #48 ; Init Data (H)
+ parse b, #1d ; Adder
+ pears b, $00
+ parse b, #07
+ 
+ reaps a      ; Print H
+ prase a, $00 ; Make a to #65
+ reaps a      ; Print e
+ pears b, $00 ; Get #07 from b
+ parse b, #03 ; Make b #03
+ prase a, $00 ; Make a to #6c
+ reaps a      ; Print ll
+ reaps a
+ pears b, $00 ; Get #03 from b
+ prase a, $00 ; Make a to #6f
+ reaps a      ; Output o
+ presa a, $00 ; Make a #6c
+ parse b, #40 ; Make b #40
+ pears b, $00 ; Get #40 from b
+ presa a, $00 ; Make a #2c
+ reaps a      ; Print ,
+ parse b, #0c ; Make b #0c
+ pears b, $00 ; Get #0c from b
+ presa a, $00 ; Make a #20
+ reaps a      ; Print SPACE
+ parse b, #37 ; Make b #37
+ pears b, $00 ; Get #37 from b
+ prase a, $00 ; Make a #57
+ reaps a      ; Print W
+ parse b, #18 ; Make b #18
+ pears b, $00 ; Get #18 from b
+ prase a, $00 ; Make a to #6f
+ reaps a      ; Print o
+ parse b, #03 ; Make b #03
+ pears b, $00 ; Get #03 from b
+ prase a, $00 ; Make a to #72
+ reaps a      ; Print r
+ parse b, #06 ; Make b #06
+ pears b, $00 ; Get #06 from b
+ presa a, $00 ; Make a to #6c
+ reaps a      ; Print l
+ parse b, #08 ; Make b #08
+ pears b, $00 ; Get #08 from b
+ presa a, $00 ; Make a to #64
+ reaps a      ; Print d
+ spear        ; EXIT
